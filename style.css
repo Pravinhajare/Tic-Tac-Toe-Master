@@ -1,0 +1,71 @@
+* {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+h1 {
+  color: coral;
+}
+
+html, body {
+  /* background-color: rgb(41, 217, 41); */
+  background-image: radial-gradient(#00809d,#520079);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 300px;
+  height: 300px;
+  border: 5px solid rgb(228, 228, 228);
+  margin: auto;
+  border-radius: 20px;
+  background-image: radial-gradient(#00809d,#520079);
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  /* color: #ff9933; */
+  border: 1px solid rgb(93, 66, 66);
+  border-radius: 10px;
+  background-color:#f4f6f5;
+}
+
+button {
+  margin-bottom: 0;
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  /* position: relative; */
+  background: #99ff9c;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px solid rgb(89, 255, 0);
+  border-radius: 10px;
+
+}
+
+h1 {
+  position: relative;
+  width: 100%;
+  font-size: 60px;
+  margin-top: 0;
+}
+
+
+
+@keyframes flicker {
+  0% { background-color: transparent; }
+  50% { background-color: rgba(255, 255, 255, 0.5); }
+  100% { background-color: transparent; }
+}
+
+.flicker {
+  animation: flicker 1s ;
+}
+

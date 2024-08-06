@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  
+  <body>
+    <audio id="tada">
+      <source src="tada.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pop">
+      <source src="pop.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Tic-Tac-Toe</h1>
+    <!-- <button onclick="reset()">Reset</button> -->
+    <table>
+      <tr>
+        <td id="0" class="col1" onclick="move(0)"></td>
+        <td id="1" class="col1" onclick="move(1)"></td>
+        <td id="2" class="col1" onclick="move(2)"></td>
+      </tr>
+      <tr>
+        <td id="3" class="col1" onclick="move(3)"></td>
+        <td id="4" class="col1" onclick="move(4)"></td>
+        <td id="5" class="col1" onclick="move(5)"></td>
+      </tr>
+      <tr>
+        <td id="6" class="col1" onclick="move(6)"></td>
+        <td id="7" class="col1" onclick="move(7)"></td>
+        <td id="8" class="col1" onclick="move(8)"></td>
+      </tr>
+    </table>
+    <p id="mes">It is <span id="turn" style="border-width:0"></span>'s turn.</p>
+    <p style="display:none" id="win"><span id="winner"></span> won.</p>
+
+    <button onclick="reset()">Reset</button>
+
+  </body>
+
+</html>
